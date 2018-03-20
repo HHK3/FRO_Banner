@@ -187,8 +187,12 @@ h1 {
   margin-top: 40px;
 }
 
-.lb_ronald, .lb_vs, .lb_king {
+.lb_ronald, .lb_vs {
   transition: transform .5s;
+}
+
+.lb_king {
+  transition: transform 1s cubic-bezier(.17,.67,.83,.67)
 }
 
 .lb_ronald.lb--uit {
@@ -200,5 +204,5 @@ h1 {
 }
 
 .lb_king.lb--uit {
-  transform: translateY(160px) rotate(-360deg);
+  transform: translateY(160px) rotate(-720deg);
 }
